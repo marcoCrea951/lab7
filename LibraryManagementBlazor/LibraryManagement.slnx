@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../LibraryManagementBlazor.Tests/LibraryManagementBlazor.Tests.csproj" />
+  <Project Path="LibraryManagementBlazor.csproj" />
+</Solution>

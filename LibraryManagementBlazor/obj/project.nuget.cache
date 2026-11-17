@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BppJmtolTaI=",
+  "success": true,
+  "projectFilePath": "/Users/marcolinocrea/Desktop/ALL/Server Side/lab6/LibraryManagementBlazor/LibraryManagementBlazor.csproj",
+  "expectedPackageFiles": [
+    "/Users/marcolinocrea/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.7/microsoft.aspnetcore.app.internal.assets.10.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

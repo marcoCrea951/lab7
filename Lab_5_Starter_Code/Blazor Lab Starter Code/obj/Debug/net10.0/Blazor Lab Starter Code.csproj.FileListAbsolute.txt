@@ -1,0 +1,32 @@
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Data/Books.csv
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Data/Users.csv
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code.deps.json
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code.runtimeconfig.json
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code.dll
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code.pdb
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.AssemblyInfoInputs.cache
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.AssemblyInfo.cs
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.csproj.CoreCompileInputs.cache
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.dll
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/refint/Blazor Lab Starter Code.dll
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.pdb
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.genruntimeconfig.cache
+/Users/marcolinocrea/Desktop/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/ref/Blazor Lab Starter Code.dll
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Data/Books.csv
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Data/Users.csv
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code.deps.json
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code.runtimeconfig.json
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code.dll
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/bin/Debug/net10.0/Blazor Lab Starter Code.pdb
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.AssemblyInfoInputs.cache
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.AssemblyInfo.cs
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.csproj.CoreCompileInputs.cache
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.dll
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/refint/Blazor Lab Starter Code.dll
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.pdb
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/Blazor Lab Starter Code.genruntimeconfig.cache
+/Users/marcolinocrea/Desktop/ALL/Server Side/lab5/Lab_5_Starter_Code/Blazor Lab Starter Code/obj/Debug/net10.0/ref/Blazor Lab Starter Code.dll

@@ -1,0 +1,61 @@
+1. Data Persistence & File Management (CSV Handling)
+
+Console: 
+Reads initial records from Books.csv and Users.csv upon
+startup using methods like ReadBooks() and ReadUsers()
+
+Blazor:
+Centralized LibraryService inside a Services/ folder. 
+Every time a record is added, edited, or deleted, the service 
+must update both the in-memory list and write those changes back 
+out to the respective CSV files so data persists across sessions.
+
+2. Book Management (CRUD Operations)
+
+Console:
+Provides a ManageBooks() menu loop allowing the user to Create 
+(add a new book), Read (list all books), Update (edit book details 
+like title/author), and Delete books.
+
+
+Blazor:
+Provides a ManageBooks() menu loop allowing the user to Create 
+(add a new book), Read (list all books), Update (edit book details 
+like title/author), and Delete books.
+
+3. User Management (CRUD Operations)
+
+Console:
+Provides a ManageUsers() menu loop to add, edit, list, and delete 
+user records from memory and Users.csv.
+
+Blazor:
+Requires a dedicated User Management component/page (e.g., Users.razor). 
+Similar to books, it will handle user records via the LibraryService using an 
+interactive table and form inputs.
+
+4. Book Borrowing and Returning Logic
+
+Console: BorrowBook(): Prompts for a user ID and a book ID, checks availability, 
+and maps them (typically using a dictionary or tracking structure like borrowedBooks).
+
+ReturnBook(): Lists currently borrowed books and allows processing a return to make the book 
+available again.
+
+
+Blazor: 
+Requires a Borrowing & Returning component/page (e.g., BorrowReturn.razor). It will use dropdowns 
+or selection forms allowing users to check out available books, update the borrowedBooks dictionary 
+state, and display a list of active checkouts with a "Return" action button next to each.
+
+
+5. User Input and Interface Loop
+
+Console:
+Relies on synchronous text prompts (Console.ReadLine()) and numbered 
+menu selections inside a while loop
+
+Blazor: 
+Replaces command-line menus with component-based web UI navigation (sidebar links via 
+NavMenu.razor), reactive event handling (@onclick), and data binding (@bind) using Blazor's 
+HTML forms.

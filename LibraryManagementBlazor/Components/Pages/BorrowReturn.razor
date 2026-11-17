@@ -1,0 +1,111 @@
+@page "/borrow-return"
+@rendermode InteractiveServer
+
+@inject LibraryService Library
+
+<PageTitle>Borrow & Return Books</PageTitle>
+
+<h3>Borrow & Return Books</h3>
+
+<!-- Borrow Form -->
+<div class="card mb-4 p-3 bg-light">
+    <h4>Borrow a Book</h4>
+    <div class="row g-3">
+        <div class="col-md-5">
+            <label class="form-label">Select User</label>
+            <select class="form-select" @bind="selectedUserId">
+                <option value="0">-- Choose User --</option>
+                @foreach (var user in Library.Users)
+                {
+                    <option value="@user.Id">@user.Name (ID: @user.Id)</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-5">
+            <label class="form-label">Select Book</label>
+            <select class="form-select" @bind="selectedBookId">
+                <option value="0">-- Choose Book --</option>
+                @foreach (var book in Library.Books.Where(b => !Library.BorrowedBooks.ContainsKey(b.Id)))
+                {
+                    <option value="@book.Id">@book.Title by @book.Author</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+            <button class="btn btn-success w-100" @onclick="BorrowBook">Borrow</button>
+        </div>
+    </div>
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger mt-3 mb-0 py-2">@errorMessage</div>
+    }
+</div>
+
+<!-- Active Borrowed Books Table -->
+<h4>Currently Borrowed Books</h4>
+@if (Library.BorrowedBooks.Count == 0)
+{
+    <p><em>No books are currently checked out.</em></p>
+}
+else
+{
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Book Title</th>
+                <th>Borrowed By (User)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Library.BorrowedBooks)
+            {
+                var book = Library.Books.FirstOrDefault(b => b.Id == item.Key);
+                var user = Library.Users.FirstOrDefault(u => u.Id == item.Value);
+                <tr>
+                    <td>@item.Key</td>
+                    <td>@(book?.Title ?? "Unknown Book")</td>
+                    <td>@(user?.Name ?? "Unknown User") (ID: @item.Value)</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm" @onclick="() => ReturnBook(item.Key)">Return</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private int selectedUserId;
+    private int selectedBookId;
+    private string errorMessage = string.Empty;
+
+    private void BorrowBook()
+    {
+        errorMessage = string.Empty;
+
+        if (selectedUserId == 0 || selectedBookId == 0)
+        {
+            errorMessage = "Please select both a valid user and a book.";
+            return;
+        }
+
+        bool success = Library.BorrowBook(selectedUserId, selectedBookId);
+        if (!success)
+        {
+            errorMessage = "Unable to borrow book. It may already be checked out.";
+        }
+        else
+        {
+            // Reset selection
+            selectedUserId = 0;
+            selectedBookId = 0;
+        }
+    }
+
+    private void ReturnBook(int bookId)
+    {
+        Library.ReturnBook(bookId);
+    }
+}
